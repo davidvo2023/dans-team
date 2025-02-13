@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Reset CSS (Load first) -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="age-verification">
+      <div class="age-verification__bg">
+        <div class="age-verification__blur"></div>
+        <img src="assets/images/bg_home.png">
+      </div>
+      <div class="age-verification__content">
+        <h2 class="age-verification__title">Welcome to Archie Rose</h2>
+        <h1 class="age-verification__question">What Year Were You Born?</h1>
+        <div class="age-verification__born">
+          <div class="age-verification__born-border-1">
+            <div class="age-verification__born-border-2">
+              <div class="age-verification__born-border-3">
+                <input type="text" class="age-verification__born-input" placeholder="_ _ _ _" maxlength="4">
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="age-verification__description"> Verify you are legal drinking age and consent in keeping your data private. </p>
+        <div class="age-verification__checkbox">
+          <div class="age-verification__checkbox-content">
+            <input type="checkbox" id="confirm" class="age-verification__checkbox-input">
+            <label for="confirm" class="age-verification__checkbox-label"> I confirm that I am of legal drinking age in my country. <br> I confirm that I am not a robot and that I am human. <br> I consent to keeping my data private in accordance to the privacy policy. </label>
+          </div>
+          <div class="age-verification__checkbox-img">
+            <img src="assets/images/logo_cloudflare.png">
+            <img src="assets/images/logo_dava.png">
+            <img src="assets/images/logo_adfixus.png">
+            <img src="assets/images/logo_secure.png">
+          </div>
+        </div>
+        <button class="age-verification__button age-verification__button--primary">Enter</button>
+        <p class="age-verification__quotes"> Get the facts <a target="_blank" href="https://drinkwise.org.au/">DrinkWise.org.au</a>
+        </p>
+        <div class="age-verification__powered-by">
+          <span>Powered by</span>
+          <img src="assets/images/logo_dava.png">
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript (Place before closing body tag for better performance) -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

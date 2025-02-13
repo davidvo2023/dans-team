@@ -1,0 +1,22 @@
+
+
+@font-face {
+  font-family: Optima;
+  src: url(../fonts/OptimaLTStd-Medium-1RXNiASf.woff2) format("woff2"),
+    url(../fonts/OptimaLTStd-Medium-BkMHmwFZ.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Acumin";
+  src: url("../fonts/Acumin-RPro.otf") format("opentype"); 
+  font-display: swap;
+}
